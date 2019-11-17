@@ -1,0 +1,46 @@
+.menu-container{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  border-bottom: solid 1px #939698;
+}
+.home-link{    float: right;
+  font-weight: bold;
+  color: #939698;
+  text-decoration: none;
+  padding: 1em;
+  background: none;}
+.menu-list{float: left;width: calc(100% - 10em);}
+
+.menu-list {
+}
+
+.menu-item {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-item a,
+.menu-item a:visited {
+  font-weight: 600;
+  color: #939698;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: color 0.35s;
+  padding: 1em;
+  position: relative;
+  display: inline-block;
+}
+
+.menu-item a:focus,
+.menu-item a:hover {
+  color: #313233
+}
+
+.menu-icon {
+    line-height: .9em;
+    padding-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+}

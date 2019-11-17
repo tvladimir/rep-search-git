@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiSearchUrl: "https://api.github.com/search/repositories?"
 };
